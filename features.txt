@@ -2,3 +2,5 @@ Nuevas funcionalidades para Rellenuto:
 
 - Adaptarlo a OOP.
 - Agregar tipos de separadores.
+- Agregar una GUI.
+- Agregar cambiar directorio.
