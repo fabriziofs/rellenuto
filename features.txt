@@ -1,1 +1,3 @@
 Nuevas funcionalidades para Rellenuto:
+
+- Adaptarlo a OOP.
