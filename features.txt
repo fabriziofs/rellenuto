@@ -1,3 +1,4 @@
 Nuevas funcionalidades para Rellenuto:
 
 - Adaptarlo a OOP.
+- Agregar tipos de separadores.
