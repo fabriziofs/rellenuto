@@ -1,3 +1,5 @@
+# Created by: Fabrizio Fasanando at 04-07-2020
+
 import requests
 import lxml.html as html
 import os
