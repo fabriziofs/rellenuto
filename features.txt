@@ -5,3 +5,6 @@ Nuevas funcionalidades para Rellenuto:
 - Agregar una GUI.
 - Agregar cambiar directorio.
 -Agrego esta linea a la rama oop.
+
+
+-Agrego otra linea a la rama oop tratando de evitar conflictos.
