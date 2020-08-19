@@ -4,5 +4,4 @@ Nuevas funcionalidades para Rellenuto:
 - Agregar tipos de separadores.
 - Agregar una GUI.
 - Agregar cambiar directorio.
--Agrego esta linea a la rama oop.
 -Agrego una linea a la rama oop_script
