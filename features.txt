@@ -1,8 +1,6 @@
 Nuevas funcionalidades para Rellenuto:
-
+-Agrego una linea a la rama master.
 - Adaptarlo a OOP.
 - Agregar tipos de separadores.
 - Agregar una GUI.
 - Agregar cambiar directorio.
--Agrego una linea a la rama master.
--Agrego esta linea a la rama oop.
