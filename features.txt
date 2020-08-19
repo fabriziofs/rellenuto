@@ -4,4 +4,3 @@ Nuevas funcionalidades para Rellenuto:
 - Agregar tipos de separadores.
 - Agregar una GUI.
 - Agregar cambiar directorio.
-
