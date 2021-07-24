@@ -15,7 +15,7 @@ PATH = '/home/fabrizio/MEGA/Naruto Shippuden/'
 
 
 def check_episodes(episodes):
-    '''Check from a list of integers if there are all the episodes.'''
+    """Check from a list of integers if there are all the episodes."""
     not_listed = []
     try:
         for episode in episodes:
