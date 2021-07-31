@@ -11,7 +11,7 @@ EPISODE_NUMBER = '//table[position() > 5]/tbody/tr[position() > 1]/td[1]/text()'
 EPISODE_VALUE = '//table[position() > 5]/tbody/tr[position() > 1]/td[3]/text()'
 SEASON_TITLE = '//h3[@id = contains(.,"Naruto Shippuden")]'
 
-PATH = '/home/fabrizio/MEGA/Naruto Shippuden/'
+PATH = '/mnt/hdd1/Naruto Shippuden'
 
 
 def check_episodes(episodes):
@@ -30,7 +30,7 @@ def check_episodes(episodes):
 
 
 def check_response(link):
-    '''Check the response of a GET request.'''
+    """Check the response of a GET request."""
     try:
         response = requests.get(link)
         if response.status_code == 200:
@@ -59,14 +59,14 @@ def get_episodes_types():
 
 
 def merge_episodes_data(numbers, types):
-    ''' Mix the number with the type of an episode. Return a list of tuples with this form:
-    (num,type)'''
+    """ Mix the number with the type of an episode. Return a list of tuples with this form:
+    (num,type)"""
     merged_list = list(zip(numbers, types))
     return merged_list
 
 
 def change_episode_name(merged_list):
-    '''Change the episode name if that episode is not a main episode.'''
+    """Change the episode name if that episode is not a main episode."""
     with os.scandir(PATH) as episodes:
         for episode in episodes:
             if ('Historia' in episode.name) or ('Relleno' in episode.name):
